@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Chamanico</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WGBTB5F');</script>
+    <!-- End Google Tag Manager -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Raleway', 'sans-serif'],
+              gothic: ['Raleway', 'sans-serif'],
+            },
+            colors: {
+              gold: '#FFD700',
+              mystic: '#FF0000',
+              night: '#0a0a0a',
+              deepblue: '#1e293b',
+            },
+            animation: {
+              marquee: 'marquee 30s linear infinite',
+              glow: 'glow 2s ease-in-out infinite alternate', // Mantener animaciones existentes
+              pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite', // Mantener animaciones existentes
+              'fade-in': 'fadeIn 1s ease-out forwards',
+            },
+            keyframes: {
+              marquee: {
+                '0%': { transform: 'translateX(0)' },
+                '100%': { transform: 'translateX(-50%)' },
+              },
+              glow: { // Mantener animaciones existentes
+                '0%, 100%': { boxShadow: '0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 15px #FFD700' },
+                '50%': { boxShadow: '0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Consultas de brujería y servicios esotéricos. Amarres de amor, hechizos, limpiezas y más.">
+    <meta name="keywords" content="esoterismo, brujería, amarres de amor, hechizos, limpiezas, tarot, astrología">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="URL_DEL_SITIO_WEB"> <!-- Deberás reemplazar esto con tu URL real -->
+    <!-- Open Graph Meta Tags (para redes sociales) -->
+    <meta property="og:title" content="Servicios Esotéricos Profesionales">
+    <meta property="og:description" content="Descubre el poder de nuestros rituales y consultas esotéricas.">
+    <meta property="og:image" content="images/og-image.jpg"> <!-- Deberás crear esta imagen -->
+    <meta property="og:url" content="URL_DEL_SITIO_WEB"> <!-- Deberás reemplazar esto con tu URL real -->
+    <meta property="og:type" content="website">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Servicios Esotéricos Profesionales">
+    <meta name="twitter:description" content="Descubre el poder de nuestros rituales y consultas esotéricas.">
+    <meta name="twitter:image" content="images/twitter-image.jpg"> <!-- Deberás crear esta imagen -->
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body class="bg-night font-sans min-h-screen relative overflow-x-hidden">
+    <!-- Scroll Header -->
+    <div id="scroll-header" class="fixed top-0 left-0 right-0 bg-gold text-night p-2 z-[60] hidden shadow-lg flex items-center justify-between space-x-4">
+        <div class="marquee-text-container flex-grow overflow-hidden whitespace-nowrap">
+            <div class="inline-block animate-marquee">
+                <span class="mx-4 font-bold text-lg">AMARRES DE AMOR: ¡PAGAS AL VER RESULTADOS! RESULTADOS GARANTIZADOS</span>
+                <span class="mx-4 font-bold text-lg">AMARRES DE AMOR: ¡PAGAS AL VER RESULTADOS! RESULTADOS GARANTIZADOS</span>
+            </div>
+        </div>
+        <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" 
+           target="_blank" rel="noopener noreferrer"
+           class="consultas-gratis-button flex-shrink-0 bg-gradient-to-br from-green-500 to-green-700 text-white text-xs font-bold px-3 py-1.5 rounded-lg border-2 border-green-300 shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 animate-pulse whitespace-nowrap">
+            CONSULTA GRATIS
+        </a>
+    </div>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGBTB5F"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="site-header bg-night/80 backdrop-blur-md shadow-lg sticky top-0 z-30">
+        <div class="container mx-auto px-4 py-2 flex items-center justify-between">
+            <nav class="main-nav flex items-center w-full">
+                <a href="index.html" class="logo text-gold drop-shadow-lg flex items-center" aria-label="Centro Chamanico Home">
+                    <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" 
+                         viewBox="0 0 30 30"
+                         class="h-5 md:h-6 w-auto mr-2 fill-current">
+                      <circle cx="15" cy="7" r="3"></circle>
+                      <circle cx="8" cy="23" r="3"></circle>
+                      <circle cx="22" cy="23" r="3"></circle>
+                    </svg>
+                    <span class="logo-text font-gothic text-2xl md:text-3xl tracking-widest">CENTRO CHAMANICO</span>
+                  </a>
+                <button class="menu-toggle ml-auto md:hidden text-gold" aria-label="Abrir menú" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-links hidden absolute top-full left-0 right-0 z-20 flex-col items-center gap-4 bg-night/95 p-6 md:static md:flex md:flex-row md:items-center md:gap-6 md:bg-transparent md:p-0 md:ml-8 text-gold font-gothic text-lg">
+                    <li><a href="#hero" class="hover:text-mystic transition">Inicio</a></li>
+                    <li><a href="#servicios" class="hover:text-mystic transition">Servicios</a></li>
+                    <li><a href="#testimonios" class="hover:text-mystic transition">Testimonios</a></li>
+                    <li><a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="hover:text-mystic transition">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="relative z-10">
+        <section id="hero" class="hero-section flex flex-col items-center justify-center min-h-[70vh] text-center relative overflow-hidden py-12 md:py-24 px-4">
+            <div class="hero-overlay absolute inset-0 bg-gradient-to-b from-night/90 via-night/70 to-night/90 z-0"></div>
+            <div class="container hero-content relative z-10 flex flex-col items-center opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h1 class="hero-title font-gothic text-gold drop-shadow-[0_2px_2px_rgba(0,0,0,0.7)] mb-6 animate-pulse text-center">
+                    <span class="block text-4xl sm:text-5xl md:text-6xl leading-tight">
+                        Amarres de Amor Efectivos
+                    </span>
+                    <span class="block text-2xl sm:text-3xl md:text-4xl mt-2 md:mt-3 font-normal tracking-normal">
+                        Recupera tu Pareja: <span class="text-mystic animate-glow">¡Solo Pagas al Ver Resultados!</span>
+                    </span>
+                </h1>
+                <p class="hero-subtitle text-gray-100 text-xl md:text-3xl mb-8 font-gothic drop-shadow-[0_1px_1px_rgba(0,0,0,0.5)]">¿Sufres por amor? Nuestros poderosos amarres y rituales te ayudarán a recuperar a tu ser amado y restaurar la felicidad en tu relación. <strong class="text-gold">Consulta Gratis por WhatsApp.</strong></p>
+                <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="cta-button bg-gradient-to-br from-mystic via-red-700 to-red-800 hover:from-red-600 hover:via-red-700 hover:to-mystic text-gold font-gothic px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-lg transition-all duration-300 text-xl sm:text-2xl animate-glow border-2 border-gold hover:border-gold whitespace-normal text-center">
+                    QUIERO RECUPERAR MI PAREJA (Click Aquí)
+                </a>
+            </div>
+        </section>
+
+        <section id="servicios" class="services-section relative py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="video-background-container services-video-container absolute inset-0 w-full h-full z-0 overflow-hidden">
+                <video class="service-section-video w-full h-full object-cover autoplay-on-scroll" preload="metadata" loop muted playsinline>
+                    <source src="https://v1.pinimg.com/videos/mc/720p/4f/21/49/4f2149153336b66ea22295053b9f6a1c.mp4" type="video/mp4">
+                    Tu navegador no soporta videos HTML5.
+                </video>
+                <div class="video-background-overlay services-video-overlay absolute inset-0 bg-night/85"></div>
+            </div>
+            <div class="container services-content-container relative z-10 max-w-5xl mx-auto flex flex-col items-center gap-8 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <div class="service-altar-image-container flex justify-center mb-2">
+                    <img src="https://i.pinimg.com/736x/39/11/f8/3911f80bbdfe1829d802d6c21ef945f0.jpg" alt="Altar místico iluminado con velas y elementos esotéricos para amarres de amor" class="service-altar-image w-36 h-36 md:w-48 md:h-48 object-cover rounded-full border-4 border-gold shadow-2xl animate-glow">
+                </div>
+                <div class="bg-mystic/20 border border-gold rounded-lg p-4 mb-6 text-center shadow-xl max-w-lg animate-fade-in">
+                    <p class="text-lg text-gold font-gothic animate-pulse">¡Importante! Para Amarres de Amor: Pagas el total <strong class="text-xl">SOLO</strong> al ver resultados.</p>
+                </div>
+                <div class="static-whatsapp-button-container mb-4 animate-fade-in">
+                    <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor%20-%20Consulta%20Servicios" class="static-whatsapp-button bg-gold text-night font-gothic px-4 sm:px-6 py-2 sm:py-3 rounded-full shadow-lg hover:bg-mystic hover:text-gold transition-all duration-300 flex items-center gap-2 text-sm sm:text-lg border-2 border-mystic hover:border-gold animate-glow whitespace-normal text-center" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp para consulta gratis">
+                        <svg viewBox="0 0 24 24" class="whatsapp-icon w-7 h-7" fill="currentColor"><path d="M16.75,13.96C17.41,15.62 16.4,17.12 14.71,17.5L14.71,17.5C13.65,17.74 12.3,17.87 10.83,17.47C9.28,17.05 8.06,16.22 6.47,14.65C4.78,12.97 3.96,11.76 3.55,10.3C3.14,8.84 3.27,7.59 3.52,6.53L3.53,6.53C3.91,4.84 5.42,3.84 7.08,4.5L7.08,4.5C7.83,4.79 8.42,5.35 8.82,6.08L8.82,6.08C9.06,6.49 9.2,7 9.12,7.55C8.97,8.56 8.42,9.38 7.86,9.94L7.86,9.94C7.54,10.25 7.44,10.65 7.64,10.99C8.33,12.23 9.37,13.26 10.62,13.96C10.96,14.16 11.36,14.06 11.67,13.74L11.67,13.74C12.22,13.18 13.04,12.63 14.06,12.48C14.61,12.41 15.12,12.54 15.53,12.78L15.53,12.78C16.26,13.18 16.82,13.78 16.75,14.53C16.75,14.53 16.75,13.96 16.75,13.96ZM12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2Z"></path></svg>
+                        <span>Quiero mi Consulta de Amor GRATIS</span>
+                    </a>
+                </div>
+                <h2 class="section-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg mb-2 animate-fade-in">Soluciones de Amor y Rituales Esotéricos para Recuperar tu Pareja</h2>
+                <p class="section-subtitle text-gray-100 text-lg md:text-xl mb-10 font-gothic animate-fade-in max-w-2xl mx-auto">Recupera a tu pareja, fortalece tu relación o abre tus caminos al amor con nuestros servicios especializados. <strong class="text-gold">Resultados visibles o no pagas el total por nuestros amarres.</strong></p>
+                <div class="services-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full animate-fade-in">
+                    <article class="service-card bg-night/70 backdrop-blur-sm border-2 border-gold rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:border-mystic transition-all duration-300 group flex flex-col items-center ring-2 ring-gold/50 hover:ring-mystic">
+                        <div class="text-4xl mb-3 text-gold animate-pulse">💖</div>
+                        <h3 class="service-title font-gothic text-2xl text-gold mb-3 group-hover:text-mystic transition">Amarres de Amor (Pagas x Resultados)</h3>
+                        <p class="service-description text-gray-100 font-gothic text-center">Fortalece lazos, recupera a tu ser amado. <strong class="text-gold">Garantizamos resultados antes de pagar completo.</strong></p>
+                    </article>
+                    <article class="service-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:border-mystic transition-all duration-300 group flex flex-col items-center">
+                        <div class="text-4xl mb-3 text-gold animate-pulse">✨</div>
+                        <h3 class="service-title font-gothic text-2xl text-gold mb-3 group-hover:text-mystic transition">Hechizos para Enamorar y Atraer</h3>
+                        <p class="service-description text-gray-100 font-gothic text-center">Atrae el amor verdadero y la pasión a tu vida con rituales personalizados y efectivos.</p>
+                    </article>
+                    <article class="service-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:border-mystic transition-all duration-300 group flex flex-col items-center">
+                        <div class="text-4xl mb-3 text-gold animate-pulse">🔮</div>
+                        <h3 class="service-title font-gothic text-2xl text-gold mb-3 group-hover:text-mystic transition">Brujería Avanzada</h3>
+                        <p class="service-description text-gray-100 font-gothic text-center">Prácticas esotéricas profundas para quienes buscan transformaciones significativas y soluciones a problemas complejos.</p>
+                    </article>
+                    <article class="service-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:border-mystic transition-all duration-300 group flex flex-col items-center">
+                        <div class="text-4xl mb-3 text-gold animate-pulse">🌿</div>
+                        <h3 class="service-title font-gothic text-2xl text-gold mb-3 group-hover:text-mystic transition">Limpiezas Energéticas</h3>
+                        <p class="service-description text-gray-100 font-gothic text-center">Libera tu aura y tus espacios de energías negativas, bloqueos y entidades no deseadas. Renueva tu vitalidad.</p>
+                    </article>
+                    <article class="service-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:border-mystic transition-all duration-300 group flex flex-col items-center">
+                        <div class="text-4xl mb-3 text-gold animate-pulse">🃏</div>
+                        <h3 class="service-title font-gothic text-2xl text-gold mb-3 group-hover:text-mystic transition">Lecturas de Tarot</h3>
+                        <p class="service-description text-gray-100 font-gothic text-center">Obtén claridad y guía a través de las cartas del tarot. Respuestas a tus preguntas sobre amor, trabajo y destino.</p>
+                    </article>
+                    <article class="service-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:border-mystic transition-all duration-300 group flex flex-col items-center">
+                        <div class="text-4xl mb-3 text-gold animate-pulse">🙏</div>
+                        <h3 class="service-title font-gothic text-2xl text-gold mb-3 group-hover:text-mystic transition">Consultas Espirituales</h3>
+                        <p class="service-description text-gray-100 font-gothic text-center">Un espacio de escucha y orientación para entender tus procesos internos y encontrar tu propósito espiritual.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nueva Sección de Compromiso/Garantía -->
+        <section id="compromiso-garantia" class="compromiso-garantia-section bg-night py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="container max-w-3xl mx-auto flex flex-col items-center gap-8 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <div class="flex items-center justify-center mb-4">
+                    <svg class="w-16 h-16 text-gold animate-glow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <h2 class="section-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg mb-2 animate-fade-in">Nuestro Compromiso Contigo: <br class="md:hidden"> Resultados Antes de Pagar Completo</h2>
+                <p class="section-subtitle text-gray-100 text-lg md:text-xl mb-6 font-gothic animate-fade-in max-w-2xl mx-auto">
+                    Entendemos tu situación y la urgencia de encontrar soluciones. Por eso, nuestro principal compromiso es tu satisfacción y la efectividad de nuestros rituales de amor.
+                </p>
+                <div class="text-left text-gray-100 font-sans space-y-4 max-w-xl mx-auto bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl">
+                    <p><strong class="text-gold">Transparencia Total:</strong> Desde la consulta inicial (GRATIS), te explicaremos el proceso y qué puedes esperar. No hay costos ocultos.</p>
+                    <p><strong class="text-gold">Pagas al Ver Resultados:</strong> Para muchos de nuestros poderosos amarres de amor y trabajos de alta magia, te ofrecemos la posibilidad de abonar una parte inicial para los materiales y el resto <strong class="text-mystic animate-pulse">ÚNICAMENTE CUANDO COMIENCES A VER LOS PRIMEROS RESULTADOS TANGIBLES</strong> y acordados. Queremos que confíes en nuestro trabajo y en el poder de la magia ancestral.</p>
+                    <p><strong class="text-gold">Discreción Garantizada:</strong> Tu privacidad es primordial. Todas las consultas y trabajos se manejan con la más estricta confidencialidad.</p>
+                    <p><strong class="text-gold">Acompañamiento Continuo:</strong> No estarás solo/a. Te guiaremos y acompañaremos durante todo el proceso, resolviendo tus dudas y ajustando el trabajo si es necesario.</p>
+                </div>
+                <p class="text-gray-100 text-lg md:text-xl mt-8 font-gothic animate-fade-in max-w-2xl mx-auto">
+                    Tu felicidad y la restauración de tu relación son nuestra prioridad. <br>¡No esperes más para dar el primer paso!
+                </p>
+                <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor%20-%20Quiero%20saber%20más%20sobre%20la%20garantía" class="cta-button bg-gold text-night font-gothic px-5 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg hover:bg-mystic hover:text-gold transition-all duration-300 text-base sm:text-xl animate-glow border-2 border-mystic hover:border-gold mt-4 whitespace-normal text-center">
+                    Consultar Gratis y Conocer Más
+                </a>
+            </div>
+        </section>
+        <!-- Fin Nueva Sección de Compromiso/Garantía -->
+
+        <!-- Nueva CTA 1: Libera tu Potencial -->
+        <section id="cta-transformacion" class="new-cta-section relative py-20 px-4 flex flex-col items-center justify-center text-center overflow-hidden min-h-[70vh]">
+            <div class="absolute inset-0 w-full h-full z-0">
+                <video class="w-full h-full object-cover autoplay-on-scroll" loop muted playsinline preload="metadata">
+                    <source src="https://v1.pinimg.com/videos/mc/720p/a8/49/58/a849584017b343569ee7b77ae2982dd1.mp4" type="video/mp4">
+                    Tu navegador no soporta videos HTML5.
+                </video>
+                <div class="absolute inset-0 bg-night/80"></div> <!-- Overlay oscuro -->
+            </div>
+            <div class="container relative z-10 max-w-3xl mx-auto flex flex-col items-center gap-6 animate-fade-in opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="text-4xl md:text-5xl font-gothic text-gold drop-shadow-lg leading-tight">Libera tu Potencial Oculto</h2>
+                <p class="text-lg md:text-xl text-gray-100 font-sans max-w-xl">¿Sientes que algo te detiene en tu camino? Descubre la claridad, la fuerza y el poder que ya residen en ti. Es momento de transformar tu vida.</p>
+                <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="cta-button bg-gold text-night font-gothic px-6 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg hover:bg-mystic hover:text-gold transition-all duration-300 text-lg sm:text-xl animate-glow border-2 border-mystic hover:border-gold">
+                    Iniciar Mi Transformación
+                </a>
+            </div>
+        </section>
+
+        <section id="pendon-publicitario" class="pendon-publicitario-section py-12 px-4">
+            <div class="container mx-auto max-w-4xl flex justify-center">
+                <img src="https://i.pinimg.com/736x/de/e4/ae/dee4ae34153984f15c5e30418cacfb4e.jpg" alt="Pendón publicitario de servicios esotéricos" class="pendon-imagen rounded-2xl shadow-2xl border-2 border-gold max-w-full h-auto animate-glow opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+            </div>
+        </section>
+
+        <section id="maestros-espirituales" class="maestros-espirituales-section py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="container max-w-3xl mx-auto flex flex-col items-center gap-8 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="section-title maestros-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg mb-2 animate-fade-in">Nuestros Guías Espirituales</h2>
+                <p class="section-subtitle maestros-subtitle text-gray-100 text-lg md:text-xl mb-10 font-gothic animate-fade-in max-w-2xl mx-auto">Conoce a los maestros dedicados a iluminar tu camino y ofrecerte su sabiduría ancestral.</p>
+                <div class="maestros-grid flex flex-col items-center w-full animate-fade-in">
+                    <article class="maestro-card maestro-unico-rotativo bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 md:p-8 shadow-xl flex flex-col md:flex-row items-center gap-6 hover:shadow-2xl hover:border-mystic transition-all duration-300 group w-full max-w-2xl">
+                        <div class="maestro-imagen-viewport-vertical relative flex-shrink-0 w-48 h-48 md:w-64 md:h-64 mx-auto md:mx-0 mb-4 md:mb-0 overflow-hidden"> <!-- Viewport para slider vertical -->
+                            <div class="maestro-imagen-track-vertical flex flex-col transition-transform duration-1000 ease-in-out h-full"> <!-- Track Vertical -->
+                                <img src="https://i.pinimg.com/736x/02/61/d8/0261d8172172620aecd6ac00b11cdbed.jpg" alt="Maestro Pablo Adán" 
+                                     class="maestro-imagen w-full h-full object-cover rounded-full border-4 border-gold shadow-2xl animate-glow flex-shrink-0">
+                                <img src="https://i.pinimg.com/736x/90/8e/50/908e509964e2529dfcdbec1b5a6bcc87.jpg" alt="Maestro Juan Pedro" 
+                                     class="maestro-imagen w-full h-full object-cover rounded-full border-2 border-mystic shadow-lg flex-shrink-0">
+                            </div>
+                        </div>
+                        <div class="maestro-info flex-1 text-center md:text-left">
+                            <h3 class="maestro-nombre font-gothic text-3xl text-gold mb-3 group-hover:text-mystic transition">Maestro Pablo Adán</h3>
+                            <p class="maestro-descripcion text-gray-100 font-gothic">Con décadas de experiencia en las artes esotéricas y un profundo conocimiento ancestral, nuestros maestros ofrecen una conexión genuina con el mundo espiritual, especializándose en amarres de amor, guía del alma, limpiezas energéticas y el desbloqueo de caminos.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nueva CTA 2: Soluciones a tus Problemas -->
+        <section id="cta-soluciones" class="new-cta-section bg-night py-16 px-4">
+            <div class="container mx-auto max-w-5xl">
+                <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12 bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-8 shadow-2xl animate-fade-in opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                    <div class="md:w-1/2 flex-shrink-0">
+                        <img src="https://i.pinimg.com/736x/69/71/b7/6971b7c307e80ebb9abf9180c50016a6.jpg" alt="Símbolos místicos y mano extendida" class="rounded-xl shadow-xl w-full h-auto object-cover border-2 border-mystic/50 animate-glow">
+                    </div>
+                    <div class="md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start">
+                        <h2 class="text-3xl md:text-4xl font-gothic text-gold mb-4 leading-tight">¿Problemas de Amor, Dinero o Bienestar?</h2>
+                        <p class="text-gray-100 font-sans text-lg mb-6">Nuestros rituales ancestrales y la guía de nuestros maestros pueden ayudarte a superar obstáculos y atraer la prosperidad y felicidad que mereces. No tienes que enfrentar tus desafíos solo/a.</p>
+                        <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="cta-button bg-gradient-to-br from-mystic via-red-700 to-red-800 hover:from-red-600 hover:via-red-700 hover:to-mystic text-gold font-gothic px-6 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg transition-all duration-300 text-lg sm:text-xl animate-glow border-2 border-gold hover:border-gold">
+                            Consultar Ahora
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pendon-publicitario-galeria" class="pendon-publicitario-section py-12 px-4">
+            <div class="container mx-auto max-w-4xl flex justify-center">
+                <img src="https://i.pinimg.com/736x/04/5d/1c/045d1cb8b83f9c986a8880d19fa81e47.jpg" alt="Pendón publicitario con motivos esotéricos y elementos naturales" class="pendon-imagen rounded-2xl shadow-2xl border-2 border-gold max-w-full h-auto animate-glow opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+            </div>
+        </section>
+
+        <section id="galeria" class="gallery-section py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="container max-w-5xl mx-auto flex flex-col items-center gap-8 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="section-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg mb-2 animate-fade-in">Galería Mística</h2>
+                <p class="section-subtitle text-gray-100 text-lg md:text-xl mb-10 font-gothic animate-fade-in max-w-2xl mx-auto">Un vistazo a la energía y los elementos que nos inspiran.</p>
+                <div class="gallery-grid grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-6 w-full animate-fade-in">
+                    <figure class="gallery-item bg-night/70 backdrop-blur-sm border border-gold rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group aspect-square">
+                        <img src="https://i.pinimg.com/736x/77/c5/06/77c5064ea77fc553cfa3156e4b947897.jpg" alt="Imagen esotérica de galería 1 - Altar místico con velas" class="w-full h-full object-cover group-hover:scale-110 group-hover:brightness-125 transition-all duration-300 animate-glow">
+                    </figure>
+                    <figure class="gallery-item bg-night/70 backdrop-blur-sm border border-gold rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group aspect-square">
+                        <img src="https://i.pinimg.com/736x/da/e8/db/dae8dbd9cec09ff8c2fb9041f768ce3a.jpg" alt="Imagen esotérica de galería 2 - Manos con energía y símbolos" class="w-full h-full object-cover group-hover:scale-110 group-hover:brightness-125 transition-all duration-300 animate-glow">
+                    </figure>
+                    <figure class="gallery-item bg-night/70 backdrop-blur-sm border border-gold rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group aspect-square">
+                        <img src="https://i.pinimg.com/736x/e3/3a/64/e33a64575bfcc19bdc85151257f3c6f3.jpg" alt="Imagen esotérica de galería 3 - Bosque encantado con luces" class="w-full h-full object-cover group-hover:scale-110 group-hover:brightness-125 transition-all duration-300 animate-glow">
+                    </figure>
+                    <figure class="gallery-item bg-night/70 backdrop-blur-sm border border-gold rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group aspect-square">
+                        <img src="https://i.pinimg.com/736x/cd/d2/b3/cdd2b3bbef2b6cba35f85a10087e1340.jpg" alt="Imagen esotérica de galería 4 - Cristales y cuarzos curativos" class="w-full h-full object-cover group-hover:scale-110 group-hover:brightness-125 transition-all duration-300 animate-glow">
+                    </figure>
+                    <figure class="gallery-item bg-night/70 backdrop-blur-sm border border-gold rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group aspect-square">
+                        <img src="https://i.pinimg.com/736x/db/be/b3/dbbeb3dd1614f846e67f0f1e0a116162.jpg" alt="Imagen esotérica de galería 5 - Símbolos alquímicos y cósmicos" class="w-full h-full object-cover group-hover:scale-110 group-hover:brightness-125 transition-all duration-300 animate-glow">
+                    </figure>
+                    <figure class="gallery-item bg-night/70 backdrop-blur-sm border border-gold rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group aspect-square">
+                        <img src="https://i.pinimg.com/736x/14/f0/d9/14f0d911ad1775e744a90248da26e188.jpg" alt="Imagen esotérica de galería 6 - Mujer en meditación profunda" class="w-full h-full object-cover group-hover:scale-110 group-hover:brightness-125 transition-all duration-300 animate-glow">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nueva CTA 3: Descubre tu Futuro -->
+        <section id="cta-futuro" class="new-cta-section relative py-20 px-4 flex flex-col items-center justify-center text-center overflow-hidden min-h-[70vh]">
+            <div class="absolute inset-0 w-full h-full z-0">
+                <video class="w-full h-full object-cover autoplay-on-scroll" loop muted playsinline preload="metadata">
+                    <source src="https://v1.pinimg.com/videos/mc/720p/cc/01/c9/cc01c9ac4bb4303e719e24c00ac95c14.mp4" type="video/mp4">
+                    Tu navegador no soporta videos HTML5.
+                </video>
+                <div class="absolute inset-0 bg-night/80"></div> <!-- Overlay oscuro -->
+            </div>
+            <div class="container relative z-10 max-w-3xl mx-auto flex flex-col items-center gap-6 animate-fade-in opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <div class="text-5xl text-gold mb-3 animate-pulse">🃏</div> <!-- Icono de carta de tarot -->
+                <h2 class="text-4xl md:text-5xl font-gothic text-gold drop-shadow-lg leading-tight">¿Incertidumbre Sobre Tu Futuro?</h2>
+                <p class="text-lg md:text-xl text-gray-100 font-sans max-w-xl">El Tarot y la Videncia te ofrecen respuestas claras y una guía precisa para tomar decisiones informadas. Descubre lo que el destino tiene preparado para ti.</p>
+                <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="cta-button bg-gold text-night font-gothic px-6 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg hover:bg-mystic hover:text-gold transition-all duration-300 text-lg sm:text-xl animate-glow border-2 border-mystic hover:border-gold">
+                    Revelar Mi Destino
+                </a>
+            </div>
+        </section>
+
+        <section id="cta-slider" class="cta-slider-section py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="container max-w-2xl mx-auto flex flex-col items-center gap-8 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <div class="slider-container relative w-full animate-fade-in">
+                    <div class="slide active-slide bg-night/70 backdrop-blur-sm border border-gold rounded-2xl shadow-xl p-8 flex flex-col items-center transition-all duration-300">
+                        <div class="slide-overlay absolute inset-0 bg-gradient-to-br from-mystic/30 via-night/50 to-mystic/30 rounded-2xl pointer-events-none opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                        <div class="slide-content relative z-10">
+                            <h3 class="slide-title font-gothic text-3xl md:text-4xl text-gold mb-4 animate-pulse">¿Buscas Respuestas Urgentes?</h3>
+                            <p class="slide-text text-gray-100 font-gothic mb-6 text-lg">Nuestros psíquicos y tarotistas pueden ofrecerte la claridad que necesitas hoy mismo.</p>
+                            <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="cta-button slide-cta bg-gradient-to-br from-mystic via-red-700 to-red-800 hover:from-red-600 hover:via-red-700 hover:to-mystic text-gold font-gothic px-6 py-2 sm:px-8 sm:py-3 rounded-full shadow-lg transition-all duration-300 text-base sm:text-xl animate-glow border-2 border-gold hover:border-gold whitespace-normal text-center">Consulta Inmediata</a>
+                        </div>
+                    </div>
+                    <div class="slide hidden bg-night/70 backdrop-blur-sm border border-gold rounded-2xl shadow-xl p-8 flex flex-col items-center transition-all duration-300">
+                        <div class="slide-overlay absolute inset-0 bg-gradient-to-br from-mystic/30 via-night/50 to-mystic/30 rounded-2xl pointer-events-none opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                        <div class="slide-content relative z-10">
+                            <h3 class="slide-title font-gothic text-3xl md:text-4xl text-gold mb-4">Transforma tu Vida Amorosa</h3>
+                            <p class="slide-text text-gray-100 font-gothic mb-6 text-lg">Descubre el poder de un amarre de amor diseñado específicamente para tu situación.</p>
+                            <a href="#servicios" class="cta-button slide-cta bg-gradient-to-br from-mystic via-red-700 to-red-800 hover:from-red-600 hover:via-red-700 hover:to-mystic text-gold font-gothic px-6 py-2 sm:px-8 sm:py-3 rounded-full shadow-lg transition-all duration-300 text-base sm:text-xl animate-glow border-2 border-gold hover:border-gold whitespace-normal text-center">Ver Amarres de Amor</a>
+                        </div>
+                    </div>
+                    <div class="slide hidden bg-night/70 backdrop-blur-sm border border-gold rounded-2xl shadow-xl p-8 flex flex-col items-center transition-all duration-300">
+                        <div class="slide-overlay absolute inset-0 bg-gradient-to-br from-mystic/30 via-night/50 to-mystic/30 rounded-2xl pointer-events-none opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                        <div class="slide-content relative z-10">
+                            <h3 class="slide-title font-gothic text-3xl md:text-4xl text-gold mb-4">Libérate de Energías Negativas</h3>
+                            <p class="slide-text text-gray-100 font-gothic mb-6 text-lg">Siente la paz y la armonía con una limpieza energética profunda y restauradora.</p>
+                            <a href="#servicios" class="cta-button slide-cta bg-gradient-to-br from-mystic via-red-700 to-red-800 hover:from-red-600 hover:via-red-700 hover:to-mystic text-gold font-gothic px-6 py-2 sm:px-8 sm:py-3 rounded-full shadow-lg transition-all duration-300 text-base sm:text-xl animate-glow border-2 border-gold hover:border-gold whitespace-normal text-center">Solicitar Limpieza</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-nav flex items-center justify-center gap-3 mt-6">
+                    <button class="slider-prev text-gold bg-night/70 border border-gold rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center text-2xl hover:bg-mystic hover:text-gold transition-all duration-300 shadow-lg backdrop-blur-sm">&#10094;</button>
+                    <div class="slider-dots flex gap-2">
+                        <!-- Los puntos se generarán con JS o se pueden añadir manualmente aquí si son pocos -->
+                    </div>
+                    <button class="slider-next text-gold bg-night/70 border border-gold rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center text-2xl hover:bg-mystic hover:text-gold transition-all duration-300 shadow-lg backdrop-blur-sm">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="conversion-text" class="conversion-text-section py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="container max-w-3xl mx-auto flex flex-col items-center gap-6 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="section-title-alt font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg animate-fade-in">Descubre el Camino Hacia Tu Transformación</h2>
+                <div class="conversion-content font-gothic text-lg text-gray-100 space-y-6 animate-fade-in">
+                    <p>¿Sientes que <span class="text-gold font-bold animate-pulse">fuerzas invisibles</span> frenan tu felicidad y prosperidad? En los misterios ancestrales y las energías sutiles, yace la llave para <span class="text-gold font-bold animate-pulse">desbloquear tu verdadero potencial</span>. No estás solo; estamos aquí para guiarte con sabiduría y respeto.</p>
+                    <p>Nuestros rituales son puentes energéticos, construidos con conocimiento arcano y la intención de <span class="text-gold font-bold animate-pulse">ayudarte</span>. ¿Anhelas reavivar el amor, protegerte, atraer abundancia o encontrar paz interior? Cada servicio cataliza un <span class="bg-mystic/30 text-gold px-2 py-1 rounded">cambio real y tangible</span>, abriendo puertas y revelando <span class="text-gold font-bold animate-pulse">senderos luminosos</span>.</p>
+                    <p>Imagina un futuro de relaciones florecientes, serenidad natural y <span class="text-gold font-bold animate-pulse">sueños materializados</span>. Ese futuro es posible. Al confiar en la sabiduría esotérica, inicias un viaje de <span class="text-gold font-bold">autodescubrimiento y empoderamiento</span>. La <span class="bg-mystic/30 text-gold px-2 py-1 rounded animate-pulse">transformación</span> comienza con una decisión: creer en ti y en el poder del universo.</p>
+                    <p class="conversion-final-cta text-xl md:text-2xl mt-8"><span class="text-gold font-bold bg-mystic/50 px-3 py-2 rounded-lg animate-pulse shadow-lg">Da el primer paso hoy mismo.</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="video-cta" class="video-cta-section relative min-h-[60vh] flex items-center justify-center text-center py-16 px-4 overflow-hidden">
+            <video class="video-background absolute inset-0 w-full h-full object-cover z-0" src="https://v1.pinimg.com/videos/mc/720p/63/7d/97/637d97128d964ff7f5f7ff4c91c0927c.mp4" autoplay loop muted playsinline preload="metadata">
+                Tu navegador no soporta videos HTML5.
+            </video>
+            <div class="video-overlay-strong absolute inset-0 bg-night/80 z-10"></div>
+            <div class="container video-cta-content relative z-20 max-w-3xl mx-auto flex flex-col items-center gap-6 animate-fade-in opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="video-cta-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg">¿Sientes la Llamada a una Guía Espiritual?</h2>
+                <p class="video-cta-subtitle text-gray-100 text-lg md:text-xl font-gothic max-w-xl">Descubre las respuestas y la claridad que buscas. Estamos aquí para iluminar tu sendero.</p>
+                <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="cta-button video-cta-button bg-gold text-night font-gothic px-6 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg hover:bg-mystic hover:text-gold transition-all duration-300 text-lg sm:text-xl animate-glow border-2 border-mystic hover:border-gold">Agenda tu Consulta Espiritual</a>
+            </div>
+        </section>
+
+        <section id="beneficios-sagrados" class="beneficios-sagrados-section py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="container max-w-5xl mx-auto flex flex-col items-center gap-8 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="section-title beneficios-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg mb-2 animate-fade-in">Desbloquea Tu Potencial Divino</h2>
+                <p class="section-subtitle beneficios-subtitle text-gray-100 text-lg md:text-xl mb-10 font-gothic animate-fade-in max-w-2xl mx-auto">Descubre los beneficios de alinear tu energía con los patrones sagrados del universo.</p>
+                <div class="beneficios-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full animate-fade-in">
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🔗</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Amarres de Amor Poderosos</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Uniones y retornos de pareja con rituales ancestrales. Siente la conexión profunda y duradera que mereces.</p>
+                    </article>
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🔮</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Consultas Espirituales Claras</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Guía y revelaciones a través de tarot, videncia y canalización. Encuentra respuestas y el camino hacia tu bienestar.</p>
+                    </article>
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🪄</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Magia Efectiva (Resultados Visibles)</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Rituales personalizados para tus metas. Abona una parte al inicio y el resto al constatar los primeros cambios.</p>
+                    </article>
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🌿</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Limpiezas Energéticas Profundas</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Libera bloqueos, larvas astrales, y energías negativas de tu aura y entorno. Esto promueve la claridad mental, el bienestar emocional, atrae vibraciones positivas, mejora el descanso y abre caminos hacia tus metas.</p>
+                    </article>
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🛡️</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Protección Espiritual Inquebrantable</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Escudos energéticos contra envidias, mal de ojo y ataques psíquicos. Camina con seguridad y paz.</p>
+                    </article>
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🕊️</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Endulzamientos y Armonización</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Suaviza asperezas en relaciones, atrae la dulzura y fomenta la comprensión mutua en tu entorno.</p>
+                    </article>
+                </div>
+                <div class="beneficios-cta-container mt-10">
+                    <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="cta-button beneficios-cta bg-gold text-night font-gothic px-6 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg hover:bg-mystic hover:text-gold transition-all duration-300 text-lg sm:text-xl animate-glow border-2 border-mystic hover:border-gold">Inicia Tu Consulta Gratis</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="final-cta" class="final-cta-section py-16 px-4 flex flex-col items-center justify-center text-center bg-mystic/20">
+            <div class="container max-w-3xl mx-auto flex flex-col items-center gap-6 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <div class="final-cta-content animate-fade-in">
+                    <h2 class="final-cta-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg mb-4">¿Listo para Dar el Siguiente Paso Hacia Tu Transformación?</h2>
+                    <p class="final-cta-text text-gray-100 text-lg md:text-xl font-gothic mb-8 max-w-xl mx-auto">No esperes más para buscar la guía y las soluciones que mereces. El momento de actuar es ahora. Permítenos ayudarte a construir el futuro que deseas.</p>
+                    <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="cta-button final-cta-button bg-gold text-night font-gothic px-8 md:px-10 py-3 md:py-4 rounded-full shadow-2xl hover:bg-mystic hover:text-gold transition-all duration-300 text-lg md:text-2xl animate-glow border-2 border-mystic hover:border-gold">Contacta Ahora</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonios" class="testimonials-section py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="container max-w-5xl mx-auto flex flex-col items-center gap-8 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="section-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg mb-2 animate-fade-in">Lo Que Nuestros Clientes Comparten</h2>
+                <p class="section-subtitle text-gray-100 text-lg md:text-xl mb-10 font-gothic animate-fade-in max-w-2xl mx-auto">Experiencias reales de transformación y guía a través de nuestros servicios esotéricos.</p>
+                <div class="testimonials-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full animate-fade-in">
+                    <article class="testimonial-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:border-mystic transition-all duration-300 group flex flex-col items-center gap-3">
+                        <div class="testimonial-header flex items-center gap-4 mb-1">
+                            <span class="testimonial-avatar w-14 h-14 flex items-center justify-center rounded-full bg-mystic text-gold font-gothic text-2xl shadow-lg border-2 border-gold animate-glow group-hover:bg-gold group-hover:text-night transition-colors">L.M.</span>
+                            <div class="testimonial-info text-center">
+                                <h4 class="testimonial-name font-gothic text-gold text-xl group-hover:text-mystic transition">Laura M.</h4>
+                                <span class="testimonial-location text-gray-400 text-sm font-sans">New York, NY</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating text-gold text-xl mb-1">★★★★★</div>
+                        <p class="testimonial-date text-gray-400 text-xs font-sans mb-2">Hace 3 semanas</p>
+                        <blockquote class="testimonial-text text-gray-100 font-gothic italic text-base leading-relaxed text-left max-w-md">"Estaba pasando por un momento terrible después de mi ruptura. Sentía que no había salida. Una amiga me recomendó una limpieza energética y un ritual para abrir caminos en el amor. Al principio era escéptica, pero la diferencia fue increíble. Poco después, reconecté con alguien especial y ahora las cosas fluyen de una manera que no creía posible. ¡Mil gracias!"</blockquote>
+                    </article>
+                    <article class="testimonial-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:border-mystic transition-all duration-300 group flex flex-col items-center gap-3">
+                        <div class="testimonial-header flex items-center gap-4 mb-1">
+                            <span class="testimonial-avatar w-14 h-14 flex items-center justify-center rounded-full bg-mystic text-gold font-gothic text-2xl shadow-lg border-2 border-gold animate-glow group-hover:bg-gold group-hover:text-night transition-colors">D.S.</span>
+                            <div class="testimonial-info text-center">
+                                <h4 class="testimonial-name font-gothic text-gold text-xl group-hover:text-mystic transition">David S.</h4>
+                                <span class="testimonial-location text-gray-400 text-sm font-sans">Austin, TX</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating text-gold text-xl mb-1">★★★★★</div>
+                        <p class="testimonial-date text-gray-400 text-xs font-sans mb-2">Hace 1 mes</p>
+                        <blockquote class="testimonial-text text-gray-100 font-gothic italic text-base leading-relaxed text-left max-w-md">"Sentía una pesadez constante en mi hogar y en mi ánimo. Después de la limpieza profunda que realizaron, el ambiente cambió por completo. Hay más luz, más paz. Incluso duermo mejor. Realmente sentí cómo se iban las malas vibras. Lo recomiendo totalmente si sientes que algo no va bien energéticamente."</blockquote>
+                    </article>
+                    <article class="testimonial-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:border-mystic transition-all duration-300 group flex flex-col items-center gap-3">
+                        <div class="testimonial-header flex items-center gap-4 mb-1">
+                            <span class="testimonial-avatar w-14 h-14 flex items-center justify-center rounded-full bg-mystic text-gold font-gothic text-2xl shadow-lg border-2 border-gold animate-glow group-hover:bg-gold group-hover:text-night transition-colors">S.J.</span>
+                            <div class="testimonial-info text-center">
+                                <h4 class="testimonial-name font-gothic text-gold text-xl group-hover:text-mystic transition">Sophia J.</h4>
+                                <span class="testimonial-location text-gray-400 text-sm font-sans">Miami, FL</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating text-gold text-xl mb-1">★★★★☆</div>
+                        <p class="testimonial-date text-gray-400 text-xs font-sans mb-2">Hace 2 meses</p>
+                        <blockquote class="testimonial-text text-gray-100 font-gothic italic text-base leading-relaxed text-left max-w-md">"Acudí por un amarre de amor. El proceso fue muy profesional y me explicaron todo con detalle. Aunque no fue inmediato, empecé a notar cambios en la actitud de mi pareja. Aún estamos trabajando en nuestra relación, pero veo una esperanza que antes no existía. Valoro la honestidad y el seguimiento."</blockquote>
+                    </article>
+                    <article class="testimonial-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:border-mystic transition-all duration-300 group flex flex-col items-center gap-3">
+                        <div class="testimonial-header flex items-center gap-4 mb-1">
+                            <span class="testimonial-avatar w-14 h-14 flex items-center justify-center rounded-full bg-mystic text-gold font-gothic text-2xl shadow-lg border-2 border-gold animate-glow group-hover:bg-gold group-hover:text-night transition-colors">M.B.</span>
+                            <div class="testimonial-info text-center">
+                                <h4 class="testimonial-name font-gothic text-gold text-xl group-hover:text-mystic transition">Michael B.</h4>
+                                <span class="testimonial-location text-gray-400 text-sm font-sans">Chicago, IL</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating text-gold text-xl mb-1">★★★★★</div>
+                        <p class="testimonial-date text-gray-400 text-xs font-sans mb-2">Hace 5 días</p>
+                        <blockquote class="testimonial-text text-gray-100 font-gothic italic text-base leading-relaxed text-left max-w-md">"La consulta espiritual fue reveladora. Tenía muchas dudas sobre mi camino profesional y personal. Me ayudaron a ver las cosas desde otra perspectiva y a entender ciertos patrones. Salí sintiéndome mucho más ligero y con una claridad que no esperaba. Muy agradecido por la guía."</blockquote>
+                    </article>
+                    <article class="testimonial-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:border-mystic transition-all duration-300 group flex flex-col items-center gap-3">
+                        <div class="testimonial-header flex items-center gap-4 mb-1">
+                            <span class="testimonial-avatar w-14 h-14 flex items-center justify-center rounded-full bg-mystic text-gold font-gothic text-2xl shadow-lg border-2 border-gold animate-glow group-hover:bg-gold group-hover:text-night transition-colors">A.R.</span>
+                            <div class="testimonial-info text-center">
+                                <h4 class="testimonial-name font-gothic text-gold text-xl group-hover:text-mystic transition">Amanda R.</h4>
+                                <span class="testimonial-location text-gray-400 text-sm font-sans">Los Angeles, CA</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-rating text-gold text-xl mb-1">★★★★★</div>
+                        <p class="testimonial-date text-gray-400 text-xs font-sans mb-2">Hace 2 semanas</p>
+                        <blockquote class="testimonial-text text-gray-100 font-gothic italic text-base leading-relaxed text-left max-w-md">"Después de varias relaciones fallidas, estaba perdiendo la fe en el amor. Un hechizo para atraer el amor verdadero y una limpieza personal me hicieron sentir renovada. Hace poco conocí a alguien y, aunque es pronto, siento una conexión diferente, más sana. Gracias por devolverme la esperanza."</blockquote>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nueva CTA 4: Encuentra Paz Interior -->
+        <section id="cta-paz-interior" class="new-cta-section relative py-20 px-4 flex flex-col items-center justify-center text-center overflow-hidden min-h-[70vh] bg-cover bg-center bg-no-repeat" style="background-image: url('https://i.pinimg.com/736x/57/f5/53/57f553d7dddb10094ffceeef85b1e388.jpg');">
+            <div class="absolute inset-0 bg-night/85"></div> <!-- Overlay oscuro fuerte -->
+            <div class="container relative z-10 max-w-3xl mx-auto flex flex-col items-center gap-6 animate-fade-in opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <div class="text-5xl text-gold mb-3 animate-pulse">🧘</div> <!-- Icono de meditación/paz -->
+                <h2 class="text-4xl md:text-5xl font-gothic text-gold drop-shadow-lg leading-tight">Encuentra Paz y Armonía Interior</h2>
+                <p class="text-lg md:text-xl text-gray-100 font-sans max-w-xl">Libérate de energías negativas, el estrés y las preocupaciones. Una limpieza energética profunda puede renovar tu espíritu y traerte la serenidad que anhelas.</p>
+                <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="cta-button bg-gradient-to-br from-mystic via-red-700 to-red-800 hover:from-red-600 hover:via-red-700 hover:to-mystic text-gold font-gothic px-6 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg transition-all duration-300 text-lg sm:text-xl animate-glow border-2 border-gold hover:border-gold whitespace-normal text-center">
+                    Solicitar Limpieza Energética
+                </a>
+            </div>
+        </section>
+
+        <section id="whatsapp-testimonios" class="whatsapp-testimonios-section py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="container max-w-3xl mx-auto flex flex-col items-center gap-8 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="section-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg mb-2 animate-fade-in">Testimonios de WhatsApp</h2>
+                <p class="section-subtitle text-gray-100 text-lg md:text-xl mb-10 font-gothic animate-fade-in max-w-xl mx-auto">Resultados que hablan por sí mismos, compartidos directamente por nuestros clientes.</p>
+                <div class="whatsapp-slider-container relative w-full max-w-sm mx-auto animate-fade-in bg-night/70 backdrop-blur-sm border border-gold rounded-2xl shadow-xl p-4">
+                    <div class="whatsapp-slider flex overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide">
+                        <div class="whatsapp-slide min-w-full snap-center flex justify-center p-2">
+                            <img src="images/testimonio1.jpg" alt="Testimonio de WhatsApp 1" class="rounded-lg shadow-lg border-2 border-mystic max-h-96 object-contain">
+                        </div>
+                        <div class="whatsapp-slide min-w-full snap-center flex justify-center p-2">
+                            <img src="images/testimonio2.jpg" alt="Testimonio de WhatsApp 2" class="rounded-lg shadow-lg border-2 border-mystic max-h-96 object-contain">
+                        </div>
+                        <div class="whatsapp-slide min-w-full snap-center flex justify-center p-2">
+                            <img src="images/testimonio3.jpg" alt="Testimonio de WhatsApp 3" class="rounded-lg shadow-lg border-2 border-mystic max-h-96 object-contain">
+                        </div>
+                    </div>
+                    <button class="slider-arrow prev-whatsapp absolute top-1/2 left-2 -translate-y-1/2 text-gold bg-night/70 border border-gold rounded-full w-10 h-10 flex items-center justify-center text-2xl hover:bg-mystic hover:text-gold transition-all duration-300 shadow-lg backdrop-blur-sm z-10">&#10094;</button>
+                    <button class="slider-arrow next-whatsapp absolute top-1/2 right-2 -translate-y-1/2 text-gold bg-night/70 border border-gold rounded-full w-10 h-10 flex items-center justify-center text-2xl hover:bg-mystic hover:text-gold transition-all duration-300 shadow-lg backdrop-blur-sm z-10">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nueva CTA 5: Conecta con Guías -->
+        <section id="cta-guias" class="new-cta-section relative py-20 px-4 flex flex-col items-center justify-center text-center overflow-hidden min-h-[70vh]">
+            <div class="absolute inset-0 w-full h-full z-0">
+                <video class="w-full h-full object-cover autoplay-on-scroll" loop muted playsinline preload="metadata">
+                    <source src="https://v1.pinimg.com/videos/mc/720p/07/63/a8/0763a8af76cfc892c27ff29b3c5a07d4.mp4" type="video/mp4">
+                    Tu navegador no soporta videos HTML5.
+                </video>
+                <div class="absolute inset-0 bg-night/80"></div> <!-- Overlay oscuro -->
+            </div>
+            <div class="container relative z-10 max-w-3xl mx-auto flex flex-col items-center gap-6 animate-fade-in opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                 <div class="text-5xl text-gold mb-3 animate-pulse">🌟</div> <!-- Icono de estrella/guía -->
+                <h2 class="text-4xl md:text-5xl font-gothic text-gold drop-shadow-lg leading-tight">Conecta con Nuestros Guías Espirituales</h2>
+                <p class="text-lg md:text-xl text-gray-100 font-sans max-w-xl">Recibe consejo experto y personalizado directamente de nuestros maestros. Una consulta puede iluminar tu camino y ofrecerte la dirección que necesitas.</p>
+                <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="cta-button bg-gold text-night font-gothic px-6 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg hover:bg-mystic hover:text-gold transition-all duration-300 text-lg sm:text-xl animate-glow border-2 border-mystic hover:border-gold">
+                    Hablar con un Maestro
+                </a>
+            </div>
+        </section>
+
+        <section id="faq-arcana" class="faq-arcana-section py-16 px-2 md:px-0 flex flex-col items-center justify-center">
+            <div class="container max-w-3xl mx-auto flex flex-col items-center gap-8 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="section-title faq-arcana-title font-gothic text-3xl md:text-4xl text-gold drop-shadow-lg mb-2 animate-fade-in">Secretos Arcanos Revelados</h2>
+                <p class="section-subtitle faq-arcana-subtitle text-gray-100 text-lg md:text-xl mb-6 font-gothic animate-fade-in">Respuestas a tus inquietudes más profundas sobre nuestros servicios místicos.</p>
+                <div class="faq-container flex flex-col gap-6 w-full animate-fade-in" itemscope itemtype="https://schema.org/FAQPage">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-card bg-night/80 border border-gold rounded-2xl shadow-xl p-6 flex flex-col gap-2 group transition-all duration-300">
+                            <div class="faq-card-front flex items-center gap-4 cursor-pointer">
+                                <div class="faq-card-illustration text-3xl md:text-4xl animate-glow">✨</div>
+                                <h3 itemprop="name" class="faq-question-text font-gothic text-gold text-lg md:text-xl group-hover:text-mystic transition">¿Cómo funciona un amarre de amor y es seguro?</h3>
+                                <button class="faq-toggle-button ml-auto text-gold bg-mystic/20 rounded-full w-8 h-8 flex items-center justify-center text-xl hover:bg-mystic transition-all duration-300" aria-expanded="false" aria-controls="faq-answer-1">+</button>
+                            </div>
+                            <div class="faq-card-back hidden mt-2" id="faq-answer-1" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <div itemprop="text" class="faq-answer-text text-gray-100 font-gothic">
+                                    <p>Un amarre de amor es un ritual energético que busca fortalecer vínculos o atraer a una persona específica, trabajando con las energías sutiles del universo. Realizados por profesionales éticos, son seguros y buscan la armonía, respetando el flujo natural de las energías y no la manipulación.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-card bg-night/80 border border-gold rounded-2xl shadow-xl p-6 flex flex-col gap-2 group transition-all duration-300">
+                            <div class="faq-card-front flex items-center gap-4 cursor-pointer">
+                                <div class="faq-card-illustration text-3xl md:text-4xl animate-glow">⏳</div>
+                                <h3 itemprop="name" class="faq-question-text font-gothic text-gold text-lg md:text-xl group-hover:text-mystic transition">¿En cuánto tiempo veré resultados de un trabajo espiritual?</h3>
+                                <button class="faq-toggle-button ml-auto text-gold bg-mystic/20 rounded-full w-8 h-8 flex items-center justify-center text-xl hover:bg-mystic transition-all duration-300" aria-expanded="false" aria-controls="faq-answer-2">+</button>
+                            </div>
+                            <div class="faq-card-back hidden mt-2" id="faq-answer-2" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <div itemprop="text" class="faq-answer-text text-gray-100 font-gothic">
+                                    <p>El tiempo varía según la complejidad del caso y las energías involucradas. Algunos cambios sutiles pueden notarse pronto, mientras que manifestaciones completas pueden tomar semanas. La fe y la energía positiva del consultante también influyen significativamente.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-card bg-night/80 border border-gold rounded-2xl shadow-xl p-6 flex flex-col gap-2 group transition-all duration-300">
+                            <div class="faq-card-front flex items-center gap-4 cursor-pointer">
+                                <div class="faq-card-illustration text-3xl md:text-4xl animate-glow">🔮</div>
+                                <h3 itemprop="name" class="faq-question-text font-gothic text-gold text-lg md:text-xl group-hover:text-mystic transition">¿Qué tipo de consultas espirituales ofrecen?</h3>
+                                <button class="faq-toggle-button ml-auto text-gold bg-mystic/20 rounded-full w-8 h-8 flex items-center justify-center text-xl hover:bg-mystic transition-all duration-300" aria-expanded="false" aria-controls="faq-answer-3">+</button>
+                            </div>
+                            <div class="faq-card-back hidden mt-2" id="faq-answer-3" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <div itemprop="text" class="faq-answer-text text-gray-100 font-gothic">
+                                    <p>Ofrecemos lecturas de Tarot, canalizaciones, videncia y guía espiritual personalizada. Buscamos iluminar tu camino, responder tus inquietudes sobre amor, trabajo, destino y ayudarte a conectar con tu propósito más elevado.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 4 -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-card bg-night/80 border border-gold rounded-2xl shadow-xl p-6 flex flex-col gap-2 group transition-all duration-300">
+                            <div class="faq-card-front flex items-center gap-4 cursor-pointer">
+                                <div class="faq-card-illustration text-3xl md:text-4xl animate-glow">📜</div>
+                                <h3 itemprop="name" class="faq-question-text font-gothic text-gold text-lg md:text-xl group-hover:text-mystic transition">¿Es posible pagar una parte al ver resultados?</h3>
+                                <button class="faq-toggle-button ml-auto text-gold bg-mystic/20 rounded-full w-8 h-8 flex items-center justify-center text-xl hover:bg-mystic transition-all duration-300" aria-expanded="false" aria-controls="faq-answer-4">+</button>
+                            </div>
+                            <div class="faq-card-back hidden mt-2" id="faq-answer-4" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <div itemprop="text" class="faq-answer-text text-gray-100 font-gothic">
+                                    <p>Para ciertos trabajos de alta magia y rituales específicos de gran envergadura, evaluamos la posibilidad de un plan de pago flexible, donde una parte se abona al inicio y el resto al constatar avances tangibles y acordados. Cada caso se analiza individualmente.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 5 -->
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <div class="faq-card bg-night/80 border border-gold rounded-2xl shadow-xl p-6 flex flex-col gap-2 group transition-all duration-300">
+                            <div class="faq-card-front flex items-center gap-4 cursor-pointer">
+                                <div class="faq-card-illustration text-3xl md:text-4xl animate-glow">🌿</div>
+                                <h3 itemprop="name" class="faq-question-text font-gothic text-gold text-lg md:text-xl group-hover:text-mystic transition">¿Cómo puede ayudarme una limpieza energética?</h3>
+                                <button class="faq-toggle-button ml-auto text-gold bg-mystic/20 rounded-full w-8 h-8 flex items-center justify-center text-xl hover:bg-mystic transition-all duration-300" aria-expanded="false" aria-controls="faq-answer-5">+</button>
+                            </div>
+                            <div class="faq-card-back hidden mt-2" id="faq-answer-5" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <div itemprop="text" class="faq-answer-text text-gray-100 font-gothic">
+                                    <p>Una limpieza energética elimina bloqueos, larvas astrales, y energías negativas de tu aura y entorno. Esto promueve la claridad mental, el bienestar emocional, atrae vibraciones positivas, mejora el descanso y abre caminos hacia tus metas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta-futuro" class="new-cta-section relative py-20 px-4 flex flex-col items-center justify-center text-center overflow-hidden min-h-[70vh]">
+            <div class="absolute inset-0 w-full h-full z-0">
+                <video class="w-full h-full object-cover autoplay-on-scroll" loop muted playsinline preload="metadata">
+                    <source src="https://v1.pinimg.com/videos/mc/720p/cc/01/c9/cc01c9ac4bb4303e719e24c00ac95c14.mp4" type="video/mp4">
+                    Tu navegador no soporta videos HTML5.
+                </video>
+                <div class="absolute inset-0 bg-night/80"></div> <!-- Overlay oscuro -->
+            </div>
+            <div class="container relative z-10 max-w-3xl mx-auto flex flex-col items-center gap-6 animate-fade-in opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <div class="text-5xl text-gold mb-3 animate-pulse">🃏</div> <!-- Icono de carta de tarot -->
+                <h2 class="text-4xl md:text-5xl font-gothic text-gold drop-shadow-lg leading-tight">¿Incertidumbre en tu Relación? <br>El Tarot del Amor te Guía</h2>
+                <p class="text-lg md:text-xl text-gray-100 font-sans max-w-xl">Una lectura de Tarot puede mostrarte cómo <strong class="text-gold">superar los obstáculos en tu relación</strong> o atraer un nuevo amor. <strong class="text-gold">Respuestas claras y guía experta para tu corazón.</strong></p>
+                <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor%20-%20Tarot%20Relacion" class="cta-button bg-gold text-night font-gothic px-5 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg hover:bg-mystic hover:text-gold transition-all duration-300 text-base sm:text-xl animate-glow border-2 border-mystic hover:border-gold whitespace-normal text-center">
+                    Consulta Tarot Amor (Guía Gratis)
+                </a>
+            </div>
+        </section>
+
+        <section id="cta-slider" class="cta-slider-section py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="container max-w-2xl mx-auto flex flex-col items-center gap-8 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <div class="slider-container relative w-full animate-fade-in">
+                    <div class="slide active-slide bg-night/70 backdrop-blur-sm border border-gold rounded-2xl shadow-xl p-8 flex flex-col items-center transition-all duration-300">
+                        <div class="slide-overlay absolute inset-0 bg-gradient-to-br from-mystic/30 via-night/50 to-mystic/30 rounded-2xl pointer-events-none opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                        <div class="slide-content relative z-10">
+                            <h3 class="slide-title font-gothic text-3xl md:text-4xl text-gold mb-4 animate-pulse">¿Necesitas Ayuda Urgente con tu Pareja?</h3>
+                            <p class="slide-text text-gray-100 font-gothic mb-6 text-lg">Nuestros expertos pueden ofrecerte una <strong class="text-gold">Consulta Gratis INMEDIATA</strong> para analizar tu caso de amor y proponer un <strong class="text-gold">amarre efectivo (pagas al ver resultados)</strong>.</p>
+                            <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor%20-%20Consulta%20Urgente%20Amor%20Resultados" class="cta-button slide-cta bg-gradient-to-br from-mystic via-red-700 to-red-800 hover:from-red-600 hover:via-red-700 hover:to-mystic text-gold font-gothic px-6 py-2 sm:px-8 sm:py-3 rounded-full shadow-lg transition-all duration-300 text-base sm:text-xl animate-glow border-2 border-gold hover:border-gold whitespace-normal text-center">Consulta Gratis</a>
+                        </div>
+                    </div>
+                    <div class="slide hidden bg-night/70 backdrop-blur-sm border border-gold rounded-2xl shadow-xl p-8 flex flex-col items-center transition-all duration-300">
+                        <div class="slide-overlay absolute inset-0 bg-gradient-to-br from-mystic/30 via-night/50 to-mystic/30 rounded-2xl pointer-events-none opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                        <div class="slide-content relative z-10">
+                            <h3 class="slide-title font-gothic text-3xl md:text-4xl text-gold mb-4">Amarres de Amor Poderosos (Pagas x Resultados)</h3>
+                            <p class="slide-text text-gray-100 font-gothic mb-6 text-lg">Recupera a tu ex o fortalece tu relación actual. <strong class="text-gold">Te garantizamos ver cambios antes de pagar el total.</strong> ¡Consulta Gratis!</p>
+                            <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor%20-%20Ver%20Amarre%20Resultados" class="cta-button slide-cta bg-gradient-to-br from-mystic via-red-700 to-red-800 hover:from-red-600 hover:via-red-700 hover:to-mystic text-gold font-gothic px-6 py-2 sm:px-8 sm:py-3 rounded-full shadow-lg transition-all duration-300 text-base sm:text-xl animate-glow border-2 border-gold hover:border-gold whitespace-normal text-center">Ver Amarres (Pagas x Resultados)</a>
+                        </div>
+                    </div>
+                    <div class="slide hidden bg-night/70 backdrop-blur-sm border border-gold rounded-2xl shadow-xl p-8 flex flex-col items-center transition-all duration-300">
+                        <div class="slide-overlay absolute inset-0 bg-gradient-to-br from-mystic/30 via-night/50 to-mystic/30 rounded-2xl pointer-events-none opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                        <div class="slide-content relative z-10">
+                            <h3 class="slide-title font-gothic text-3xl md:text-4xl text-gold mb-4">Libérate de Energías Negativas</h3>
+                            <p class="slide-text text-gray-100 font-gothic mb-6 text-lg">Siente la paz y la armonía con una limpieza energética profunda y restauradora.</p>
+                            <a href="#servicios" class="cta-button slide-cta bg-gradient-to-br from-mystic via-red-700 to-red-800 hover:from-red-600 hover:via-red-700 hover:to-mystic text-gold font-gothic px-6 py-2 sm:px-8 sm:py-3 rounded-full shadow-lg transition-all duration-300 text-base sm:text-xl animate-glow border-2 border-gold hover:border-gold whitespace-normal text-center">Solicitar Limpieza</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-nav flex items-center justify-center gap-3 mt-6">
+                    <button class="slider-prev text-gold bg-night/70 border border-gold rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center text-2xl hover:bg-mystic hover:text-gold transition-all duration-300 shadow-lg backdrop-blur-sm">&#10094;</button>
+                    <div class="slider-dots flex gap-2">
+                        <!-- Los puntos se generarán con JS o se pueden añadir manualmente aquí si son pocos -->
+                    </div>
+                    <button class="slider-next text-gold bg-night/70 border border-gold rounded-full w-10 h-10 md:w-12 md:h-12 flex items-center justify-center text-2xl hover:bg-mystic hover:text-gold transition-all duration-300 shadow-lg backdrop-blur-sm">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="conversion-text" class="conversion-text-section py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="container max-w-3xl mx-auto flex flex-col items-center gap-6 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="section-title-alt font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg animate-fade-in">Descubre el Camino Hacia Tu Transformación</h2>
+                <div class="conversion-content font-gothic text-lg text-gray-100 space-y-6 animate-fade-in">
+                    <p>¿Sientes que <span class="text-gold font-bold animate-pulse">fuerzas invisibles</span> frenan tu felicidad y prosperidad? En los misterios ancestrales y las energías sutiles, yace la llave para <span class="text-gold font-bold animate-pulse">desbloquear tu verdadero potencial</span>. No estás solo; estamos aquí para guiarte con sabiduría y respeto.</p>
+                    <p>Nuestros rituales son puentes energéticos, construidos con conocimiento arcano y la intención de <span class="text-gold font-bold animate-pulse">ayudarte</span>. ¿Anhelas reavivar el amor, protegerte, atraer abundancia o encontrar paz interior? Cada servicio cataliza un <span class="bg-mystic/30 text-gold px-2 py-1 rounded">cambio real y tangible</span>, abriendo puertas y revelando <span class="text-gold font-bold animate-pulse">senderos luminosos</span>.</p>
+                    <p>Imagina un futuro de relaciones florecientes, serenidad natural y <span class="text-gold font-bold animate-pulse">sueños materializados</span>. Ese futuro es posible. Al confiar en la sabiduría esotérica, inicias un viaje de <span class="text-gold font-bold">autodescubrimiento y empoderamiento</span>. La <span class="bg-mystic/30 text-gold px-2 py-1 rounded animate-pulse">transformación</span> comienza con una decisión: creer en ti y en el poder del universo.</p>
+                    <p class="conversion-final-cta text-xl md:text-2xl mt-8"><span class="text-gold font-bold bg-mystic/50 px-3 py-2 rounded-lg animate-pulse shadow-lg">Da el primer paso hoy mismo.</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="video-cta" class="video-cta-section relative min-h-[60vh] flex items-center justify-center text-center py-16 px-4 overflow-hidden">
+            <video class="video-background absolute inset-0 w-full h-full object-cover z-0" src="https://v1.pinimg.com/videos/mc/720p/63/7d/97/637d97128d964ff7f5f7ff4c91c0927c.mp4" autoplay loop muted playsinline preload="metadata">
+                Tu navegador no soporta videos HTML5.
+            </video>
+            <div class="video-overlay-strong absolute inset-0 bg-night/80 z-10"></div>
+            <div class="container video-cta-content relative z-20 max-w-3xl mx-auto flex flex-col items-center gap-6 animate-fade-in opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="video-cta-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg">¿Sientes la Llamada a una Guía Espiritual?</h2>
+                <p class="video-cta-subtitle text-gray-100 text-lg md:text-xl font-gothic max-w-xl">Descubre las respuestas y la claridad que buscas. Estamos aquí para iluminar tu sendero.</p>
+                <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="cta-button video-cta-button bg-gold text-night font-gothic px-6 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg hover:bg-mystic hover:text-gold transition-all duration-300 text-lg sm:text-xl animate-glow border-2 border-mystic hover:border-gold">Agenda tu Consulta Espiritual</a>
+            </div>
+        </section>
+
+        <section id="beneficios-sagrados" class="beneficios-sagrados-section py-16 px-4 flex flex-col items-center justify-center text-center">
+            <div class="container max-w-5xl mx-auto flex flex-col items-center gap-8 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <h2 class="section-title beneficios-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg mb-2 animate-fade-in">Recupera el Amor y la Felicidad con Nuestros Amarres (Pagas x Resultados)</h2>
+                <p class="section-subtitle beneficios-subtitle text-gray-100 text-lg md:text-xl mb-10 font-gothic animate-fade-in max-w-2xl mx-auto">Descubre cómo nuestros <strong class="text-gold">rituales sagrados y amarres de amor efectivos</strong> pueden transformar tu vida amorosa. <strong class="text-gold">Resultados garantizados o no pagas el total. Consulta gratis.</strong></p>
+                <div class="beneficios-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full animate-fade-in">
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border-2 border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group ring-2 ring-gold/50 hover:ring-mystic">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🔗</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Amarres de Amor (Pagas x Resultados)</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Uniones y retornos de pareja. <strong class="text-gold">Resultados visibles antes de pagar el trabajo completo.</strong></p>
+                    </article>
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🔮</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Consulta Amor GRATIS Inmediata</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Guía y revelaciones para tu vida amorosa. <strong class="text-gold">Entiende tu situación y encuentra soluciones ahora.</strong></p>
+                    </article>
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🪄</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Magia de Amor (Resultados Visibles)</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Rituales de amor personalizados para tus metas. <strong class="text-gold">Pagas el total al ver los primeros cambios.</strong></p>
+                    </article>
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🌿</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Limpiezas para Abrir Caminos al Amor</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Elimina bloqueos que impiden tu felicidad amorosa. <strong class="text-gold">Atrae energías positivas a tu relación.</strong></p>
+                    </article>
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🛡️</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Protección de Parejas y Relaciones</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Escudos energéticos contra envidias y rivales que amenacen tu relación amorosa.</p>
+                    </article>
+                    <article class="beneficio-card bg-night/70 backdrop-blur-sm border border-gold rounded-2xl p-6 shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-mystic transition-all duration-300 group">
+                        <div class="beneficio-simbolo text-5xl md:text-6xl mb-3 text-gold animate-glow group-hover:text-mystic transition">🕊️</div>
+                        <h3 class="beneficio-titulo font-gothic text-2xl text-gold mb-2 group-hover:text-mystic transition">Endulzamientos para Reavivar la Pasión</h3>
+                        <p class="beneficio-descripcion text-gray-100 font-gothic">Suaviza asperezas y fomenta la comprensión y el deseo en tu relación.</p>
+                    </article>
+                </div>
+                <div class="beneficios-cta-container mt-10">
+                    <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor%20-%20Consulta%20Amor%20Beneficios" class="cta-button beneficios-cta bg-gold text-night font-gothic px-4 sm:px-6 py-2 sm:py-3 rounded-full shadow-lg hover:bg-mystic hover:text-gold transition-all duration-300 text-xs sm:text-lg animate-glow border-2 border-mystic hover:border-gold whitespace-normal text-center">Quiero Mi Consulta GRATIS </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="final-cta" class="final-cta-section py-16 px-4 flex flex-col items-center justify-center text-center bg-mystic/20">
+            <div class="container max-w-3xl mx-auto flex flex-col items-center gap-6 opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <div class="final-cta-content animate-fade-in">
+                    <h2 class="final-cta-title font-gothic text-4xl md:text-5xl text-gold drop-shadow-lg mb-4">¿Listo/a para Luchar por Tu Amor y Felicidad? <br>¡Recupera a tu Pareja Hoy!</h2>
+                    <p class="final-cta-text text-gray-100 text-lg md:text-xl font-gothic mb-8 max-w-xl mx-auto">No dejes que los problemas arruinen tu relación. <strong class="text-gold">Con nuestros amarres de amor (pagas al ver resultados) y guía espiritual experta, puedes recuperar a tu pareja.</strong> El momento de actuar es ahora. <strong class="text-gold">Consulta GRATIS.</strong></p>
+                    <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor%20-%20Recuperar%20Mi%20Amor%20YA" class="cta-button final-cta-button bg-gold text-night font-gothic px-8 md:px-10 py-3 md:py-4 rounded-full shadow-2xl hover:bg-mystic hover:text-gold transition-all duration-300 text-lg md:text-2xl animate-glow border-2 border-mystic hover:border-gold">Sí, Quiero Recuperar Mi Amor</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta-paz-interior" class="new-cta-section relative py-20 px-4 flex flex-col items-center justify-center text-center overflow-hidden min-h-[70vh] bg-cover bg-center bg-no-repeat" style="background-image: url('https://i.pinimg.com/736x/57/f5/53/57f553d7dddb10094ffceeef85b1e388.jpg');">
+            <div class="absolute inset-0 bg-night/85"></div> <!-- Overlay oscuro fuerte -->
+            <div class="container relative z-10 max-w-3xl mx-auto flex flex-col items-center gap-6 animate-fade-in opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                <div class="text-5xl text-gold mb-3 animate-pulse">🧘</div> <!-- Icono de meditación/paz -->
+                <h2 class="text-4xl md:text-5xl font-gothic text-gold drop-shadow-lg leading-tight">¿Problemas de Amor te Quitan la Paz? <br>Recupera tu Armonía.</h2>
+                <p class="text-lg md:text-xl text-gray-100 font-sans max-w-xl">Una limpieza energética puede eliminar bloqueos y atraer armonía a tu vida amorosa. <strong class="text-gold">Recupera tu bienestar y fortalece tu relación con nuestra ayuda experta.</strong></p>
+                <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor%20-%20Limpieza%20Armonia%20Amorosa" class="cta-button bg-gradient-to-br from-mystic via-red-700 to-red-800 hover:from-red-600 hover:via-red-700 hover:to-mystic text-gold font-gothic px-6 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg transition-all duration-300 text-lg sm:text-xl animate-glow border-2 border-gold hover:border-gold whitespace-normal text-center">
+                    Limpieza para Armonía Amorosa (Consulta Info)
+                </a>
+            </div>
+        </section>
+
+        <section id="cta-guias" class="new-cta-section relative py-20 px-4 flex flex-col items-center justify-center text-center overflow-hidden min-h-[70vh]">
+            <div class="absolute inset-0 w-full h-full z-0">
+                <video class="w-full h-full object-cover autoplay-on-scroll" loop muted playsinline preload="metadata">
+                    <source src="https://v1.pinimg.com/videos/mc/720p/07/63/a8/0763a8af76cfc892c27ff29b3c5a07d4.mp4" type="video/mp4">
+                    Tu navegador no soporta videos HTML5.
+                </video>
+                <div class="absolute inset-0 bg-night/80"></div> <!-- Overlay oscuro -->
+            </div>
+            <div class="container relative z-10 max-w-3xl mx-auto flex flex-col items-center gap-6 animate-fade-in opacity-0 -translate-x-12 animate-on-scroll transition-all duration-1000 ease-out">
+                 <div class="text-5xl text-gold mb-3 animate-pulse">🌟</div> <!-- Icono de estrella/guía -->
+                <h2 class="text-4xl md:text-5xl font-gothic text-gold drop-shadow-lg leading-tight">Habla con un Maestro del Amor y Recupera tu Relación</h2>
+                <p class="text-lg md:text-xl text-gray-100 font-sans max-w-xl">Nuestros guías espirituales especializados en temas de pareja te ofrecen una <strong class="text-gold">consulta GRATIS</strong> para ayudarte a encontrar soluciones y <strong class="text-gold">recuperar tu relación con amarres efectivos (pagas x resultados)</strong>.</p>
+                <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor%20-%20Consulta%20Maestro%20Amor%20Resultados" class="cta-button bg-gold text-night font-gothic px-4 sm:px-8 py-2 sm:py-3 rounded-full shadow-lg hover:bg-mystic hover:text-gold transition-all duration-300 text-sm sm:text-xl animate-glow border-2 border-mystic hover:border-gold whitespace-normal text-center">
+                    Consultar con Maestro del Amor (Resultados Garantizados)
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer-main bg-night border-t-2 border-gold py-10 px-4 mt-16 relative z-20 text-center">
+        <div class="container footer-content max-w-4xl mx-auto flex flex-col items-center gap-5">
+            <div class="footer-decoration top-decoration w-32 h-1.5 bg-gradient-to-r from-mystic via-gold to-mystic rounded-full mb-3 animate-glow"></div>
+            <p class="copyright-text font-gothic text-gold text-xl md:text-2xl tracking-wider">&copy; 2024 Centro Chamanico. Todos los Derechos Reservados.</p>
+            <nav class="footer-nav flex flex-col sm:flex-row gap-3 sm:gap-6 text-gray-300 font-gothic text-lg mb-2">
+                <a href="#privacy-policy" class="hover:text-gold transition-colors duration-300">Política de Privacidad</a>
+                <a href="#terms-of-service" class="hover:text-gold transition-colors duration-300">Términos de Servicio</a>
+            </nav>
+            <p class="footer-disclaimer text-gray-300 text-sm font-sans max-w-xl leading-relaxed">Los servicios ofrecidos son para fines de entretenimiento y desarrollo personal. Los resultados pueden variar de persona a persona y no se garantizan resultados específicos. Debe ser mayor de edad para solicitar nuestros servicios.</p>
+            <div class="footer-decoration bottom-decoration w-32 h-1.5 bg-gradient-to-r from-mystic via-gold to-mystic rounded-full mt-3 animate-glow"></div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+
+    <div class="fixed-mobile-buttons fixed bottom-4 inset-x-0 z-50 flex flex-row justify-center items-center gap-4 md:hidden">
+        <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor" class="fixed-mobile-button whatsapp-button flex items-center gap-2 bg-gradient-to-br from-green-500 to-green-700 text-white px-4 py-3 rounded-full shadow-xl hover:scale-105 transition-transform duration-300 animate-pulse border-2 border-green-400 hover:from-green-600 hover:to-green-800" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+            <svg viewBox="0 0 24 24" class="w-6 h-6" fill="currentColor"><path d="M16.75,13.96C17.41,15.62 16.4,17.12 14.71,17.5L14.71,17.5C13.65,17.74 12.3,17.87 10.83,17.47C9.28,17.05 8.06,16.22 6.47,14.65C4.78,12.97 3.96,11.76 3.55,10.3C3.14,8.84 3.27,7.59 3.52,6.53L3.53,6.53C3.91,4.84 5.42,3.84 7.08,4.5L7.08,4.5C7.83,4.79 8.42,5.35 8.82,6.08L8.82,6.08C9.06,6.49 9.2,7 9.12,7.55C8.97,8.56 8.42,9.38 7.86,9.94L7.86,9.94C7.54,10.25 7.44,10.65 7.64,10.99C8.33,12.23 9.37,13.26 10.62,13.96C10.96,14.16 11.36,14.06 11.67,13.74L11.67,13.74C12.22,13.18 13.04,12.63 14.06,12.48C14.61,12.41 15.12,12.54 15.53,12.78L15.53,12.78C16.26,13.18 16.82,13.78 16.75,14.53C16.75,14.53 16.75,13.96 16.75,13.96ZM12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2Z"></path></svg>
+            <span class="font-medium text-sm">WhatsApp</span>
+        </a>
+        <a href="tel:13175313802" class="fixed-mobile-button call-button flex items-center gap-2 bg-gradient-to-br from-blue-500 to-blue-700 text-white px-4 py-3 rounded-full shadow-xl hover:scale-105 transition-transform duration-300 animate-pulse border-2 border-blue-400 hover:from-blue-600 hover:to-blue-800" aria-label="Llamar ahora">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <span class="font-medium text-sm">Llamar</span>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.3.0/tsparticles.bundle.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        tsParticles.load({
+          fullScreen: { enable: true, zIndex: -1 },
+          particles: {
+            number: { value: 120, density: { enable: true, area: 800 } },
+            color: { value: '#fff' },
+            shape: { type: 'circle' },
+            opacity: { value: 0.8, random: true },
+            size: { value: 1.5, random: { enable: true, minimumValue: 0.5 } },
+            move: { enable: true, speed: 0.2, direction: 'none', random: true, straight: false, outModes: { default: 'out' } }
+          },
+          interactivity: {
+            events: { onHover: { enable: false }, onClick: { enable: false } },
+          },
+          detectRetina: true
+        });
+      });
+    </script>
+
+    <!-- Pop-up de Intención de Salida -->
+    <div id="exit-intent-popup" class="fixed inset-0 bg-night/70 backdrop-blur-sm flex items-center justify-center p-4 z-[100] hidden transition-opacity duration-300 ease-in-out opacity-0">
+        <div class="bg-gradient-to-br from-mystic to-deepblue border-2 border-gold rounded-2xl shadow-2xl p-6 md:p-8 max-w-md w-full text-center relative animate-fade-in">
+            <button id="close-popup-button" class="absolute top-3 right-3 text-gold hover:text-white transition-colors text-2xl">&times;</button>
+            <div class="mb-4">
+                <svg class="w-16 h-16 text-gold mx-auto animate-pulse" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+            </div>
+            <h2 class="text-3xl font-gothic text-gold mb-3">¡Espera! No te vayas...</h2>
+            <p class="text-gray-100 font-sans text-lg mb-2">¿Sientes que necesitas una guía pero aún tienes dudas?</p>
+            <p class="text-gray-100 font-sans text-lg mb-5">Te ofrecemos una <strong class="text-gold">CONSULTA GRATIS</strong> y <strong class="text-gold">SIN COMPROMISO</strong> para analizar tu caso.</p>
+            <p class="text-gray-100 font-sans text-md mb-6"><strong class="text-mystic bg-gold/20 px-2 py-1 rounded">Recuerda: Pagas al ver resultados en nuestros amarres.</strong></p>
+            <a href="https://wa.me/13175313802?text=Ayuda%20con%20el%20maestro%20por%20favor%20(desde%20popup%20salida)" 
+               target="_blank" 
+               id="popup-whatsapp-button"
+               class="w-full cta-button bg-green-500 text-white font-gothic px-8 py-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 text-xl animate-glow border-2 border-green-300 flex items-center justify-center gap-2">
+                <svg viewBox="0 0 24 24" class="w-7 h-7" fill="currentColor"><path d="M16.75,13.96C17.41,15.62 16.4,17.12 14.71,17.5L14.71,17.5C13.65,17.74 12.3,17.87 10.83,17.47C9.28,17.05 8.06,16.22 6.47,14.65C4.78,12.97 3.96,11.76 3.55,10.3C3.14,8.84 3.27,7.59 3.52,6.53L3.53,6.53C3.91,4.84 5.42,3.84 7.08,4.5L7.08,4.5C7.83,4.79 8.42,5.35 8.82,6.08L8.82,6.08C9.06,6.49 9.2,7 9.12,7.55C8.97,8.56 8.42,9.38 7.86,9.94L7.86,9.94C7.54,10.25 7.44,10.65 7.64,10.99C8.33,12.23 9.37,13.26 10.62,13.96C10.96,14.16 11.36,14.06 11.67,13.74L11.67,13.74C12.22,13.18 13.04,12.63 14.06,12.48C14.61,12.41 15.12,12.54 15.53,12.78L15.53,12.78C16.26,13.18 16.82,13.78 16.75,14.53C16.75,14.53 16.75,13.96 16.75,13.96ZM12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2Z"></path></svg>
+                Sí, Quiero mi Consulta Gratis
+            </a>
+            <button id="decline-popup-button" class="mt-3 text-gray-300 hover:text-gold text-sm underline">No, gracias. Entiendo.</button>
+        </div>
+    </div>
+
+</body>
+</html> 
